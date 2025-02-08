@@ -35,6 +35,7 @@ if __name__ == "__main__":
     sorted_n = [point[0] for point in sorted_points]
     sorted_times = [point[1] for point in sorted_points]
     
+    
     plt.figure(figsize=(10, 6))
     plt.plot(sorted_n, sorted_times)
     
